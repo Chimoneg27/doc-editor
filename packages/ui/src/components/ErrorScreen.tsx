@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { Size } from '@pdfme/common';
 import { I18nContext } from '../contexts';
 import { BACKGROUND_COLOR } from '../constants';
-import { theme, Result } from 'antd';
 
 const ErrorScreen = ({ size, error }: { size: Size; error: Error }) => {
   const i18n = useContext(I18nContext);

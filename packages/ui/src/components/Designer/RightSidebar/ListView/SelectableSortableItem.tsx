@@ -4,7 +4,6 @@ import { SchemaForUI } from '@pdfme/common';
 import { I18nContext } from '../../../../contexts';
 import Item from './Item';
 import { useMountStatus } from '../../../../hooks';
-import { theme } from 'antd';
 
 interface Props {
   isSelected: boolean;

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Selecto, { OnDragStart as _OnDragStart, OnSelect as _OnSelect } from 'react-selecto';
 import { SELECTABLE_CLASSNAME } from '../../../constants';
-import { theme } from 'antd';
 
 type Props = {
   container: HTMLElement | null;
